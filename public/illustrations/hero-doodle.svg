@@ -1,0 +1,288 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none" stroke="#E15A4A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+  <defs>
+    <linearGradient id="blush" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#F4B7A7" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#F4B7A7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ============ BACK WALL ============ -->
+  <!-- hanging plant top-left -->
+  <g stroke-width="2.3">
+    <circle cx="178" cy="40" r="4"/>
+    <path d="M178 44 q-34 22 -28 48 M178 44 q34 22 28 48 M178 46 q0 24 0 44"/>
+    <path d="M150 92 q-2 26 8 30 h40 q10 -4 8 -30z"/>
+    <path d="M148 92 h60"/>
+    <path d="M168 120 q-22 18 -24 48 q-1 16 8 26"/>
+    <path d="M188 120 q22 18 24 46 q1 16 -8 26"/>
+    <path d="M178 122 q-2 30 -2 56 q0 14 0 24"/>
+    <path d="M152 150 q-14 6 -16 18 M152 150 q-2 -8 -10 -10"/>
+    <path d="M204 150 q14 6 16 18 M204 150 q2 -8 10 -10"/>
+    <path d="M176 178 q-12 8 -12 20 M180 178 q12 8 12 20"/>
+  </g>
+
+  <!-- shelf with books + plant + frame -->
+  <g stroke-width="2.3">
+    <path d="M70 196 h168"/>
+    <path d="M70 196 v6 h168 v-6"/>
+    <path d="M88 202 l-8 18 M220 202 l8 18"/>
+    <path d="M94 196 v-42 h13 v42"/>
+    <path d="M111 196 v-50 h13 v50"/>
+    <path d="M130 196 l3 -44 l13 3 l-3 44"/>
+    <path d="M150 196 v-40 h28 v40"/>
+    <path d="M158 168 h12 M158 178 h8"/>
+    <path d="M196 196 h30 l-5 -24 h-20 z"/>
+    <path d="M211 172 q-10 -22 -2 -34 M211 172 q10 -20 2 -32 M211 172 q0 -16 -8 -24"/>
+  </g>
+
+  <!-- framed poster (graphic design) -->
+  <g stroke-width="2.4">
+    <path d="M300 96 h150 v182 h-150 z"/>
+    <path d="M312 108 h126 v158 h-126 z"/>
+    <path d="M375 96 l-13 -16 M375 96 l13 -16"/>
+    <circle cx="357" cy="158" r="27"/>
+    <path d="M408 182 l22 0 l-11 -20 z"/>
+    <path d="M324 210 h102" stroke-width="3"/>
+    <path d="M324 224 h78"/>
+    <path d="M324 238 h94"/>
+    <path d="M324 252 h60"/>
+  </g>
+
+  <!-- bunting banner center-top -->
+  <g stroke-width="2.2">
+    <path d="M486 92 q80 26 158 0 q80 -26 158 4"/>
+    <path d="M508 98 l18 2 l-7 20 z"/>
+    <path d="M548 102 l18 1 l-8 20 z"/>
+    <path d="M590 102 l18 0 l-9 20 z"/>
+    <path d="M634 100 l18 -1 l-7 21 z"/>
+    <path d="M676 98 l18 -1 l-6 21 z"/>
+    <path d="M718 98 l18 0 l-6 21 z"/>
+  </g>
+
+  <!-- MOOD BOARD right -->
+  <g stroke-width="2.4">
+    <path d="M812 96 h324 v300 h-324 z"/>
+    <circle cx="822" cy="106" r="3"/><circle cx="1126" cy="106" r="3"/>
+    <circle cx="822" cy="386" r="3"/><circle cx="1126" cy="386" r="3"/>
+
+    <!-- color swatch card -->
+    <g stroke-width="2.2">
+      <circle cx="858" cy="152" r="13"/><circle cx="890" cy="152" r="13"/>
+      <circle cx="922" cy="152" r="13"/><circle cx="954" cy="152" r="13"/>
+      <path d="M844 178 h124"/>
+      <circle cx="906" cy="128" r="3"/><path d="M906 128 v-6"/>
+    </g>
+
+    <!-- wireframe browser card -->
+    <g stroke-width="2.2">
+      <path d="M996 122 h128 v94 h-128 z"/>
+      <path d="M996 142 h128"/>
+      <circle cx="1008" cy="132" r="2.6"/><circle cx="1018" cy="132" r="2.6"/><circle cx="1028" cy="132" r="2.6"/>
+      <path d="M1010 156 h96 M1010 168 h70"/>
+      <path d="M1010 180 h40 v22 h-40 z"/>
+      <path d="M1062 180 h50 M1062 192 h36 M1062 202 h50"/>
+      <circle cx="1060" cy="114" r="3"/><path d="M1060 114 v-6"/>
+    </g>
+
+    <!-- photo / landscape card with washi tape -->
+    <g stroke-width="2.2">
+      <path d="M838 214 h128 v94 h-128 z"/>
+      <circle cx="868" cy="244" r="10"/>
+      <path d="M844 290 l28 -34 l20 26 l22 -30 l20 38"/>
+      <path d="M842 296 h120"/>
+      <path d="M832 210 l26 -9 l7 15 l-26 9 z" stroke-width="2"/>
+    </g>
+
+    <!-- sticky note -->
+    <g stroke-width="2.2">
+      <path d="M1000 232 h96 v82 l-14 14 h-82 z"/>
+      <path d="M1082 328 l14 -14 h-14 z"/>
+      <path d="M1012 252 h66 M1012 266 h52 M1012 280 h60 M1012 294 h44"/>
+      <circle cx="1048" cy="224" r="3"/><path d="M1048 224 v-6"/>
+    </g>
+
+    <!-- motion / play card -->
+    <g stroke-width="2.2">
+      <path d="M838 330 h132 v54 h-132 z"/>
+      <path d="M862 344 v26 l24 -13 z"/>
+      <path d="M900 366 h54"/>
+      <path d="M900 360 v12 M916 360 v12 M932 360 v12 M948 360 v12"/>
+      <circle cx="904" cy="322" r="3"/><path d="M904 322 v-6"/>
+    </g>
+
+    <!-- red thread connector -->
+    <path d="M906 122 C 940 180, 1010 150, 1048 224" stroke-dasharray="3 7" stroke-width="2"/>
+  </g>
+
+  <!-- ============ FLOOR / RUG ============ -->
+  <g stroke-width="2.2">
+    <path d="M300 754 q300 50 600 0"/>
+    <path d="M338 762 q262 40 524 0"/>
+  </g>
+
+  <!-- ============ DESK ============ -->
+  <g stroke-width="2.6">
+    <path d="M296 520 h656"/>
+    <path d="M296 520 v18 M952 520 v18"/>
+    <path d="M296 538 h656"/>
+    <path d="M340 538 v180 M350 538 v180"/>
+    <path d="M898 538 v180 M908 538 v180"/>
+    <!-- drawer -->
+    <path d="M806 538 h132 v46 h-132 z" stroke-width="2.3"/>
+    <path d="M858 560 h28" stroke-width="2.3"/>
+  </g>
+
+  <!-- ============ CHAIR BACK ============ -->
+  <g stroke-width="2.5">
+    <path d="M462 452 q-32 -2 -32 -58 q0 -60 95 -62 q95 2 95 62 q0 56 -32 58"/>
+    <path d="M470 452 q-22 -4 -22 -48 q0 -46 77 -48"/>
+  </g>
+
+  <!-- ============ CHARMI ============ -->
+  <g stroke-width="2.5">
+    <!-- torso / top -->
+    <path d="M480 520 q-4 -44 8 -70 q14 -30 37 -40 q23 10 37 40 q12 26 8 70"/>
+    <!-- collar + button placket -->
+    <path d="M512 398 q13 10 26 0"/>
+    <path d="M525 408 v92"/>
+    <circle cx="525" cy="430" r="1.8" fill="#E15A4A"/>
+    <circle cx="525" cy="452" r="1.8" fill="#E15A4A"/>
+    <circle cx="525" cy="474" r="1.8" fill="#E15A4A"/>
+    <!-- neck -->
+    <path d="M515 384 v10 M535 384 v10"/>
+
+    <!-- right arm to laptop -->
+    <path d="M488 470 q-26 12 -34 36 q-3 10 6 14"/>
+    <path d="M458 512 q-7 5 -3 12 q4 5 12 1"/>
+    <!-- left arm to mouse -->
+    <path d="M562 466 q30 8 50 28"/>
+    <path d="M610 494 q9 -2 13 5 q2 7 -5 10 q-9 2 -13 -5z"/>
+    <ellipse cx="616" cy="510" rx="11" ry="7"/>
+
+    <!-- hair behind -->
+    <path d="M494 336 q-26 24 -28 76 q-1 30 10 56"/>
+    <path d="M556 336 q26 24 28 76 q1 30 -10 56"/>
+    <!-- face -->
+    <path d="M493 332 q0 -34 32 -34 q32 0 32 34 q0 30 -18 44 q-14 10 -28 0 q-18 -14 -18 -44z"/>
+    <!-- hair crown -->
+    <path d="M495 334 q-7 -44 30 -46 q37 2 30 46"/>
+    <!-- top bun -->
+    <path d="M524 300 m-17 -2 a17 14 0 1 0 34 0 a17 14 0 1 0 -34 0"/>
+    <path d="M515 290 q9 -6 18 2 M512 300 q12 6 26 0"/>
+    <!-- bow at bun base -->
+    <path d="M512 318 q-13 -8 -15 5 q-1 11 15 4z"/>
+    <path d="M512 318 q13 -8 15 5 q1 11 -15 4z"/>
+    <path d="M509 316 q3 6 7 0"/>
+    <!-- bangs -->
+    <path d="M499 324 q12 -19 26 -19 q14 0 26 19 q-7 -5 -15 -3 q-7 -7 -13 -4 q-6 -3 -13 4 q-8 -2 -13 3z"/>
+    <!-- face features -->
+    <path d="M507 344 q5 5 11 0"/>
+    <path d="M532 344 q5 5 11 0"/>
+    <ellipse cx="505" cy="357" rx="5.5" ry="2.4" fill="url(#blush)" stroke="none"/>
+    <ellipse cx="545" cy="357" rx="5.5" ry="2.4" fill="url(#blush)" stroke="none"/>
+    <path d="M525 354 q-2 5 2 6"/>
+    <path d="M518 366 q7 5 14 0"/>
+  </g>
+
+  <!-- ============ DESK OBJECTS ============ -->
+  <!-- laptop (lid back) in front of Charmi -->
+  <g stroke-width="2.5">
+    <path d="M476 516 q-2 -52 8 -54 h82 q10 2 8 54 z"/>
+    <path d="M520 488 q-6 -8 -12 -2 q-5 6 0 11 l12 11 l12 -11 q5 -5 0 -11 q-6 -6 -12 2z"/>
+    <path d="M462 516 h120 l12 10 h-144 z"/>
+  </g>
+
+  <!-- monitor showing UI design -->
+  <g stroke-width="2.5">
+    <path d="M604 432 h170 q8 0 8 8 v74 q0 8 -8 8 h-170 q-8 0 -8 -8 v-74 q0 -8 8 -8z"/>
+    <path d="M684 522 v14 M662 540 h44"/>
+    <path d="M614 450 h150" stroke-width="2.2"/>
+    <circle cx="624" cy="442" r="2.6"/><circle cx="634" cy="442" r="2.6"/>
+    <circle cx="648" cy="484" r="17"/>
+    <path d="M680 472 l18 0 l-9 -16 z"/>
+    <path d="M678 494 h78" stroke-width="2.6"/>
+    <path d="M678 506 h58"/>
+    <path d="M714 472 h44"/>
+  </g>
+
+  <!-- coffee mug -->
+  <g stroke-width="2.3">
+    <path d="M352 500 h30 v18 q0 6 -6 6 h-18 q-6 0 -6 -6z"/>
+    <path d="M382 504 q12 0 12 9 q0 8 -10 8"/>
+    <path d="M360 494 q-4 -8 2 -14 M372 494 q4 -8 -2 -14"/>
+  </g>
+  <!-- books stack -->
+  <g stroke-width="2.3">
+    <path d="M326 520 h46 v-11 h-46 z"/>
+    <path d="M330 509 h46 v-11 h-46 z"/>
+    <path d="M326 498 h40 v-10 h-40 z"/>
+  </g>
+  <!-- phone branding mockup -->
+  <g stroke-width="2.3">
+    <path d="M420 520 h28 v-46 q0 -4 -4 -4 h-20 q-4 0 -4 4z"/>
+    <path d="M420 482 h28 M420 512 h28"/>
+    <circle cx="434" cy="516" r="1.8"/>
+    <path d="M427 476 h14"/>
+  </g>
+  <!-- pencil cup -->
+  <g stroke-width="2.3">
+    <path d="M780 520 q-2 -22 4 -24 h22 q6 2 4 24"/>
+    <path d="M788 496 v-26 M796 496 v-32 M804 496 v-22"/>
+    <path d="M796 464 l-3 6 h6 z"/>
+  </g>
+  <!-- camera (video editing) -->
+  <g stroke-width="2.3">
+    <path d="M826 520 v-34 h60 v34"/>
+    <path d="M838 486 v-8 h16 v8"/>
+    <circle cx="856" cy="503" r="12"/>
+    <circle cx="856" cy="503" r="5"/>
+    <circle cx="878" cy="492" r="2"/>
+  </g>
+  <!-- succulent -->
+  <g stroke-width="2.3">
+    <path d="M900 520 h28 l-4 -16 h-20 z"/>
+    <path d="M914 504 q-10 -16 -4 -28 M914 504 q10 -16 4 -28 M914 504 q0 -14 0 -24"/>
+  </g>
+
+  <!-- ============ FOREGROUND PLANTS ============ -->
+  <!-- tall floor plant left -->
+  <g stroke-width="2.4">
+    <path d="M150 772 h96 l-12 -46 h-72 z"/>
+    <path d="M138 726 h120"/>
+    <path d="M198 726 q-6 -76 -32 -116 q16 10 24 32"/>
+    <path d="M198 726 q6 -88 30 -124 q-16 12 -22 36"/>
+    <path d="M198 726 q-26 -42 -52 -56"/>
+    <path d="M198 726 q26 -38 54 -52"/>
+    <path d="M198 726 q0 -54 0 -100"/>
+  </g>
+  <!-- floor plant right -->
+  <g stroke-width="2.4">
+    <path d="M992 774 h104 l-12 -42 h-80 z"/>
+    <path d="M980 732 h128"/>
+    <path d="M1044 732 q-2 -74 -30 -110 q16 8 24 28"/>
+    <path d="M1044 732 q2 -66 30 -100 q-16 10 -22 30"/>
+    <path d="M1044 732 q-24 -34 -50 -44"/>
+    <path d="M1044 732 q24 -30 52 -40"/>
+  </g>
+
+  <!-- scattered papers -->
+  <g stroke-width="2.2">
+    <path d="M516 700 l70 -16 l16 44 l-70 16 z"/>
+    <path d="M534 712 h44 M532 726 h32"/>
+    <path d="M600 706 l60 -10 l10 38 l-60 10 z"/>
+    <path d="M614 718 h38 M612 730 h28"/>
+  </g>
+
+  <!-- ============ DECORATIVE ============ -->
+  <g stroke-width="2.2">
+    <path d="M712 60 l52 -16 l-20 42 l-12 -14 l-20 -12z"/>
+    <path d="M732 84 l-12 -14"/>
+    <path d="M680 70 q12 -6 26 -8" stroke-dasharray="4 6"/>
+    <path d="M278 120 l5 -5 M278 120 l-5 -5 M278 120 l5 5 M278 120 l-5 5"/>
+    <path d="M790 412 l5 -5 M790 412 l-5 -5 M790 412 l5 5 M790 412 l-5 5"/>
+    <path d="M1150 470 l5 -5 M1150 470 l-5 -5 M1150 470 l5 5 M1150 470 l-5 5"/>
+    <circle cx="600" cy="392" r="2.2"/>
+    <circle cx="468" cy="120" r="2.2"/>
+    <path d="M784 440 q18 -12 36 -2" stroke-dasharray="3 6"/>
+  </g>
+</svg>
