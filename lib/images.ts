@@ -1,5 +1,8 @@
+import { withBasePath } from './basePath';
+
 // Central image manifest. URL-encoded paths handle spaces/parens in filenames.
-const enc = (name: string) => `/images/${encodeURIComponent(name)}`;
+// All URLs are prefixed with the GitHub Pages base path.
+const enc = (name: string) => withBasePath(`/images/${encodeURIComponent(name)}`);
 
 export const portraits = {
   primary: enc('charmi.jpg'),
@@ -121,8 +124,8 @@ export const editorialAssets = {
 export const heroFor = (title: ProjectKey) => projectImages[title].hero;
 
 // Reels (vertical 9:16 motion work)
-const reel = (slug: string) => `/images/reels/${slug}.mp4`;
-const poster = (slug: string) => `/images/reels/posters/${slug}.jpg`;
+const reel = (slug: string) => withBasePath(`/images/reels/${slug}.mp4`);
+const poster = (slug: string) => withBasePath(`/images/reels/posters/${slug}.jpg`);
 
 export type Reel = {
   slug: string;

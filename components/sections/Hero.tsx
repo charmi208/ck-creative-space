@@ -4,6 +4,7 @@ import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { MouseEvent } from "react";
 import { Doodle } from "@/components/ScrapbookVisuals";
 import { portraits } from "@/lib/images";
+import { withBasePath } from "@/lib/basePath";
 
 export default function Hero() {
   const mx = useMotionValue(0);
@@ -157,7 +158,7 @@ function HeroPortrait() {
         data-cursor="hover"
       >
         <img
-          src="/illustrations/hero-doodle.svg"
+          src={withBasePath("/illustrations/hero-doodle.svg")}
           alt="Charmi at her creative desk — hand drawn illustration"
           loading="eager"
           className="h-auto w-full select-none"
