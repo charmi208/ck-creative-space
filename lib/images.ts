@@ -137,7 +137,8 @@ export type Reel = {
 
 export const reels: Reel[] = [
   { slug: 'VAGzJ3FbkJA', src: reel('VAGzJ3FbkJA'), poster: poster('VAGzJ3FbkJA'), title: 'Ride Drop', tag: 'Cycling / Social' },
-  { slug: 'VAHI4FOp5DQ', src: reel('VAHI4FOp5DQ'), poster: poster('VAHI4FOp5DQ'), title: 'Element Edit', tag: 'Retail / Brand' },
+  // { slug: 'VAHI4FOp5DQ', src: reel('VAHI4FOp5DQ'), poster: poster('VAHI4FOp5DQ'), title: 'Element Edit', tag: 'Retail / Brand' },
+  { slug: 'asics_reel', src: reel('asics_reel'), poster: poster('asics_reel'), title: 'Element Edit', tag: 'Retail / Brand' },
   { slug: 'VAHI4NHMfSg', src: reel('VAHI4NHMfSg'), poster: poster('VAHI4NHMfSg'), title: 'Studio Cut', tag: 'In-house / Motion' },
   { slug: 'VAGzJ45qBKE', src: reel('VAGzJ45qBKE'), poster: poster('VAGzJ45qBKE'), title: 'Pace Sequence', tag: 'Sport / Edit' },
   { slug: 'VAHI4BkSwFQ', src: reel('VAHI4BkSwFQ'), poster: poster('VAHI4BkSwFQ'), title: 'Field Notes', tag: 'Campaign / Edit' },
